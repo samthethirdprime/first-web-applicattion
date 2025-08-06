@@ -66,6 +66,10 @@ function increment() {
 let saveEl = document.getElementById("save-el")
 console.log(saveEl)
 
+
+
+
+
 function save() {
     let saveSrt = count + " - "
     saveEl.textContent += saveSrt
