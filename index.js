@@ -66,7 +66,9 @@ function increment() {
 let saveEl = document.getElementById("save-el")
 console.log(saveEl)
 
-
+let name = prompt("what is your name")
+let welcomeEl = document.getElementById("welcome")
+welcomeEl.textContent = "welcome " + name + " ! "
 
 
 
